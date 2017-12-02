@@ -287,7 +287,7 @@ function resposta_rapida_3 (recipientID) { // Função do enviar resposta rapida
 function callSendAPI (messageData) {
   request({
       uri: 'https://graph.facebook.com/v2.6/me/messages',
-      qs: { access_token: 'EAAC4D1QFGJgBAEWyuFpxz2x2H3UXrVizvt4bBtVNG2zZCkDgvYty8D4cZAKIJ4nxWoCO8oKEowSBH1VKhGqDoyDbq14I1gBjBtCkA7g0yDRzWokwyt9ZBsXyEZCNtqUxr9eT4bY5RdNVjZBfQu6Aw2UOB7yymQB4nsxXsx9BVKQZDZD' },
+      qs: { access_token: 'EAAH1ramxxaIBAJnOdixNH3J85pqW1H5nvs3z2lZBr8ZAMdPayZCyRRZCYTuCyBtQ28NtSCrtGOUdZBO3Pe5RvOGDr1ALO6c0NVj14ckVWP3PyRVAu3Yf0sjUHaHi46kOMa2ZCu6YTB7PYJaw6TrCwJSFvaWC06yxDILspFdbJd9wZDZD' },
       method: 'POST',
       json: messageData
     }, function (error, response, body) {
